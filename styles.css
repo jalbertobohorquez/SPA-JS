@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(201, 20, 20);
+}
+h2{
+    text-align: center;
+    color: rgb(53, 111, 236);
+}
+div{
+    align-items: center;
+    margin: auto;
+}
+.formulario{
+    background-color: rgb(129, 138, 146);
+    width: fit-content;
+    border: 2px solid black;
+    padding: 10px 10px 10px;
+    border-radius: 20px;
+}
+label{
+    display: inline-block;
+    color: rgb(40, 40, 161);
+    width: 90px;
+    text-align: right;
+}
+input{
+    width: 150px;
+}
+label:hover{
+    background-color: blueviolet;
+}
+.table{
+    border: 1px solid black;
+    width: 800px;
+    border-collapse: collapse;
+    margin:auto;
+}
+
+.table th{
+    color: black;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.table td{
+    background-color: white;
+    border: 1px solid black;
+    color:black;
+}
+
+.table td:hover{
+    background-color: aquamarine;
+}

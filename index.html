@@ -16,7 +16,7 @@
                 <label for="apellido">Apellidos</label>
                 <input type="text" name="apellido" id="apellido">
                 <br>
-                <label for="telefono">Número de Telefono</label>
+                <label for="telefono">Celular</label>
                 <input type="tel" name="telefono" id="telefono">
                 <br>
                 <label for="email">Email</label>
@@ -31,9 +31,37 @@
                 <label for="nota">Anotación</label>
                 <input type="text" name="nota" id="nota">
                 <br>
-                <input type="buttom" value="Agregar">
+                <input type="button" value="Agregar" id="guardar">
             </form>
         </div>
     </div>
+    <br>
+    <div>
+        <div class="table">
+            <table id="tabla">
+                <thead>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Celular</th>
+                    <th>Email</th>
+                    <th>Dirección</th>
+                    <th>Cumpleaños</th>
+                    <th>Anotación</th>
+                    <th>Acción</th>
+                </thead>
+                <tbody>
+                    <td>Pedro</td>
+                    <td>Perez</td>
+                    <td>3112402345</td>
+                    <td>pedroperez@gmail.com</td>
+                    <td>Cll 21 # 3-45</td>
+                    <td>12/12/2001</td>
+                    <td>Compañero del colegio</td>
+                    <td><button class="btn-danger">Borrar</button></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
